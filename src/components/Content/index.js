@@ -4,7 +4,6 @@ import "./styles.css";
 import Skills from "./Skills/";
 import Education from "./Education/";
 import Social from "./Social/";
-import Awards from "./Awards/";
 import Experience from "./Experience/";
 
 export default () => {
@@ -29,9 +28,6 @@ export default () => {
                     </Row>
                     <Row className="education">
                         <Education />
-                    </Row>
-                    <Row className="awards">
-                        <Awards />
                     </Row>
                     <Row className="social">
                         <Social />

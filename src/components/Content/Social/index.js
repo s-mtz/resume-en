@@ -16,6 +16,11 @@ export default () => {
                         <i class="fa fa-telegram"></i>
                     </a>
                 </Descriptions.Item>
+                <Descriptions.Item>
+                    <a href="https://www.linkedin.com/in/s-morteza-hakim/">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </Descriptions.Item>
             </Descriptions>
         </div>
     );

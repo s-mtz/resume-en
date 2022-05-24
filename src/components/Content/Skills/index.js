@@ -5,44 +5,113 @@ import "./styles.css";
 export default () => {
     return (
         <div className="Skills">
-            <Descriptions title="Skills" column={1}>
                 <h4>
                     <b>languages :</b>
                 </h4>
-                <Descriptions.Item label="English">
-                    <Progress
-                        showInfo={false}
-                        type="line"
-                        percent={90}
-                        steps={30}
-                        size="small"
-                        strokeColor="#E07A5F"
-                        trailColor="#F2CC8F"
-                    />
-                </Descriptions.Item>
-                <Descriptions.Item label="Arabic">
-                    <Progress
-                        showInfo={false}
-                        type="line"
-                        percent={80}
-                        steps={30}
-                        size="small"
-                        strokeColor="#E07A5F"
-                        trailColor="#F2CC8F"
-                    />
-                </Descriptions.Item>
-                <Descriptions.Item label="PHP">
-                    <Progress
-                        showInfo={false}
-                        type="line"
-                        percent={30}
-                        steps={30}
-                        size="small"
-                        strokeColor="#E07A5F"
-                        trailColor="#F2CC8F"
-                    />
-                </Descriptions.Item>
-            </Descriptions>
+    
+                <Row gutter={20}>
+                    <Col>
+                        <h4 className="Title">English</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Persian</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Arabic</h4>
+                    </Col>
+                </Row> 
+
+                <h4>
+                    <b>Product Managment :</b>
+                </h4>
+
+                <Row gutter={20}>
+                    <Col>
+                        <h4 className="Title">Scrum</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Kanban</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Scrumban</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">User Story</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">AC & DOD</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">UI & UX</h4>
+                    </Col>                    
+                    <Col>
+                        <h4 className="Title">Figma</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">wireframing</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Roadmap Design</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">PRD</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Google Analytics</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Clarity</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Jira</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Trello</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Clickup</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Critical Thinking</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Communication</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Stakeholders Management</h4>
+                    </Col>
+                </Row> 
+
+                <h4>
+                    <b>Programing :</b>
+                </h4>
+
+                <Row gutter={20}>
+                    <Col>
+                        <h4 className="Title">PHP</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">SQL</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">HTML</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">CSS</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">JavaScript</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">Linux</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">git</h4>
+                    </Col>
+                    <Col>
+                        <h4 className="Title">git flow</h4>
+                    </Col>
+                </Row>  
         </div>
     );
 };

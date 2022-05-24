@@ -14,7 +14,7 @@ export default () => {
                     <h4 className="Title">Team Green Olive</h4>
                 </Row>
                 <Row>
-                    <h5 className="JobTitle">Junior Backend Developer</h5>
+                    <h4 className="JobTitle">Junior Backend Developer</h4>
                 </Row>
                 <Row>
                     <p>an small startup organization for application developing</p>
@@ -27,7 +27,7 @@ export default () => {
                     <h4 className="Title">Telegram bot using php</h4>
                 </Row>
                 <Row>
-                    <h5 className="JobTitle">@mangadl_tbot</h5>
+                    <h4 className="JobTitle">@mangadl_tbot</h4>
                 </Row>
                 <Row>
                     <p>
@@ -71,30 +71,22 @@ export default () => {
 
             <>
                 <Row>
-                    <h4 className="Year">2018 - 2020</h4>
-                    <h4 className="Title">Teaching English</h4>
-                </Row>
-                <Row>
-                    <h5 className="JobTitle">Teacher of public and private classes</h5>
-                </Row>
-                <Row>
-                    <p>
-                        with the license of Teachers Training Course(TTC) and 2 years of teaching
-                        experience in Momtaz institute
-                    </p>
-                </Row>
-            </>
-
-            <>
-                <Row>
-                    <h4 className="Year">2017 - 2018</h4>
+                    <h4 className="Year">2017 - 2019</h4>
                     <h4 className="Title">Momtaz institute</h4>
                 </Row>
                 <Row>
-                    <h5 className="JobTitle">Secretary and the internal director</h5>
+                    <h4 className="JobTitle">Teacher</h4>
                 </Row>
                 <Row>
-                    <p>experiencing class management, financial management and staff management</p>
+                    <p>teaching two a1 classes with over 15 students </p>
+                    <p>teaching b1 class with over 10 students </p>
+                </Row>
+                
+                <Row>
+                    <h4 className="JobTitle">Executive director</h4>
+                </Row>
+                <Row>
+                    <p>experiencing class management, financial management, and staff management</p>
                 </Row>
             </>
         </div>
