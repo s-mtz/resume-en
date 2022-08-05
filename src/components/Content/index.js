@@ -16,7 +16,11 @@ export default () => {
                     </Row>
                     <Row>
                         <p>
-                        My teammates call me Morteza, a proactive leader, patient teacher, creative thinker, picky on the product, and a good friend.
+                            It's been about two years since I've introduced to the career of product
+                            management and have taken it seriously. I believe time can't be a
+                            precise metric to value the quality of an experience based on how
+                            hardworking, passionate, and punctilious people are. Love for solving
+                            challenges and communicating both helped me with this mission.
                         </p>
                     </Row>
                 </div>
