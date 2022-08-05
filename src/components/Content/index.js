@@ -12,11 +12,11 @@ export default () => {
             <Row className="about">
                 <div>
                     <Row>
-                        <h2>about</h2>
+                        <h2>About</h2>
                     </Row>
                     <Row>
                         <p>
-                            Computer Engineering student, who loves backend programing challanges and a passionate teacher
+                        My teammates call me Morteza, a proactive leader, patient teacher, creative thinker, picky on the product, and a good friend.
                         </p>
                     </Row>
                 </div>

@@ -5,8 +5,9 @@ import "./styles.css";
 export default () => {
     return (
         <div className="Skills">
+            <Descriptions title="Skills" column={1} layout="vertical"></Descriptions>
                 <h4>
-                    <b>languages :</b>
+                    <b>Languages :</b>
                 </h4>
     
                 <Row gutter={20}>
@@ -48,7 +49,7 @@ export default () => {
                         <h4 className="Title">Figma</h4>
                     </Col>
                     <Col>
-                        <h4 className="Title">wireframing</h4>
+                        <h4 className="Title">Wireframing</h4>
                     </Col>
                     <Col>
                         <h4 className="Title">Roadmap Design</h4>
@@ -106,10 +107,10 @@ export default () => {
                         <h4 className="Title">Linux</h4>
                     </Col>
                     <Col>
-                        <h4 className="Title">git</h4>
+                        <h4 className="Title">Git</h4>
                     </Col>
                     <Col>
-                        <h4 className="Title">git flow</h4>
+                        <h4 className="Title">Git flow</h4>
                     </Col>
                 </Row>  
         </div>

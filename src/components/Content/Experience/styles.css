@@ -40,6 +40,10 @@
     font-weight: 600;
     color: rgba(0, 0, 0, 0.85);
 }
+.Experience .Projects {
+    font-weight: 500;
+    color: #1890ff;
+}
 
 .Experience .sub-tech small {
     padding-right: 18px;

@@ -14,7 +14,7 @@ export default () => {
                     <Row>{/* <h4></h4> */}</Row>
                     <Row className="social">
                         <Descriptions column={{ xs: 1, md: 2 }}>
-                            <Descriptions.Item label="Phone number">09392632560</Descriptions.Item>
+                            <Descriptions.Item label="Phone number">+989392632560</Descriptions.Item>
                             <Descriptions.Item label="Email">
                                 s.mtz.hakim@gmail.com
                             </Descriptions.Item>
